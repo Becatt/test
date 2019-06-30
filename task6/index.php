@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <form method="GET" action="task6.php">
+    <form method="GET" action="index.php">
       Введите число
       <input name="x" type="number">
       Ведите цифру для проверки

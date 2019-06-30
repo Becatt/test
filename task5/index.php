@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <form method= "GET" action="task5.php">
+    <form method= "GET" action="index.php">
       Введите число
       <input name="x" type="text">
       <input type="submit" value= "Ок">
