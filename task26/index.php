@@ -1,19 +1,3 @@
-<!DOCTYPE HTML>
-<html lang="ru">
-
-  <head>
-    <title>task26</title>
-  </head>
-
-  <body>
-    <form method="GET" action="index.php">
-      Введите число
-      <input name="x" type="number">
-      <input type="submit" value= "Ок">
-    </form>
-  </body>
-</html>
-
 <?php
   $x = (int) $_GET['x'];
 
@@ -38,5 +22,21 @@ function checkDivisor($dividend, $divisor = 2) {
   return checkDivisor($dividend, $divisor);
 }
 
-$check = checkDivisor($x);
-var_dump($check);
+var_dump(checkDivisor(12));
+?>
+
+<!DOCTYPE HTML>
+<html lang="ru">
+
+  <head>
+    <title>task26</title>
+  </head>
+
+  <body>
+    <form method="GET" action="index.php">
+      Введите число
+      <input name="x" type="number">
+      <input type="submit" value= "Ок">
+    </form>
+  </body>
+</html>
